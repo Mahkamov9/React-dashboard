@@ -1,0 +1,31 @@
+.sidebar{
+    width: 306px;
+    height: 100vh;
+    background-color: red;
+}
+
+.sidebar-box{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.dashboard-link{
+    padding: 40px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #000;
+
+}
+
+.dashboard-link::before{
+    content: " ";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-size: 26px;
+    background-image: url("../../assets/img/setting.png");
+    transform: translate(-30% , 15%);
+}
