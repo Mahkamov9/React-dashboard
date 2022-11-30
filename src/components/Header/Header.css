@@ -1,7 +1,30 @@
 .header{
-    background-color: aquamarine;
 }
 
-.navbar{
-    background-color: aqua;
+.header-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.charts-subtitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.charts-select{
+    outline: none;
+    border-radius: 8px;
+}
+
+.header-charts{
+    background-color: #fff;
+    height: 378px;
+    width: 628px;
+    border-radius: 15px;
+}
+
+.charts-item{
+    margin: 10px;
 }

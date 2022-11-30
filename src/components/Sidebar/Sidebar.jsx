@@ -1,4 +1,6 @@
 import './Sidebar.css';
+import {Link} from 'react-router-dom';
+
 
 // Images
  import Img from "../../assets/img/img.png";
@@ -11,12 +13,12 @@ const Sidebar = () =>{
                 <a className='dashboard-link' href="#">Dashboard</a>
 
                 <ul className="sidebar-list">
-                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
-                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
-                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
-                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
-                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
-                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
+                    <li className='sidebar-item'><Link to="/" className='sidebar-item-link1' href="#">Dashboard</Link></li>
+                    <li className='sidebar-item'><Link to="/group" className='sidebar-item-link2' href="#">Guruhlar</Link></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link3' href="#">O'quvchilar</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link4' href="#">Dars jadvali</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link5' href="#">Sozlamalar</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link6' href="#">Yordam</a></li>
                 </ul>
 
                 <div className='sidebar-time'>
