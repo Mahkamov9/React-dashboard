@@ -1,5 +1,7 @@
 import './Sidebar.css';
 
+// Images
+ import Img from "../../assets/img/img.png";
 
 
 const Sidebar = () =>{
@@ -9,15 +11,26 @@ const Sidebar = () =>{
                 <a className='dashboard-link' href="#">Dashboard</a>
 
                 <ul className="sidebar-list">
-                    <li className="sidebar-item">Guruhlar</li>
+                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
+                    <li className='sidebar-item'><a className='sidebar-item-link' href="#">Dashboard</a></li>
                 </ul>
 
                 <div className='sidebar-time'>
-                    16:55
+                    <p>16:55:24</p>
                 </div>
 
-                <a href="sidebar-accaunt">
-                    Sss
+                <a className='sidebar-accaunt' href="#">
+                    <div>
+                        <img src={Img} alt="Icon" />
+                    </div>
+                    <div>
+                        <h3>Ahadjon Mahkamov</h3>
+                        <p>Frontend dasturchi</p>
+                    </div>
                 </a>
             </div>
         </div>

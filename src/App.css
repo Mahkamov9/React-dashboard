@@ -1,0 +1,16 @@
+
+.page-box{
+    display: flex;
+}
+
+
+.sidebar-page{
+    width: 20%;
+}
+
+.page-main{
+    width: 80%;
+    background-color: #FAFBFF;
+    height: 100vh;
+}
+
